@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="dd08a15d-8d9f-4e9a-9ed1-c0285a9fbd76" ChangeDateTime="12/11/2020 13:36:22">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="L1G1ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="27d981d7-f0a3-4169-b97d-3babec8752ad" ChangeDateTime="12/11/2020 13:36:53">
+    <Property Name="ElementName" Value="[dbo].[Table1].[L1G1ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ba58f745-5044-4237-9f09-712c2016720f" ChangeDateTime="12/11/2020 13:37:19">
+    <Property Name="ElementName" Value="[dbo].[Table1].[L1]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CATEGORY" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3a20cef5-ecee-4406-88ee-4d66a0eca5bb" ChangeDateTime="12/11/2020 13:40:27">
+    <Property Name="ElementName" Value="[dbo].[Table1]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[MAIN]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4b1704dc-fed0-4256-ad7e-71d46deafb2b" ChangeDateTime="12/11/2020 14:03:24">
+    <Property Name="ElementName" Value="[dbo].[Table1]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[MAIN]" />
+  </Operation>
+</Operations>
